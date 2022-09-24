@@ -5,7 +5,10 @@
     <classes>
       <class name="vm.AppTest">
         <methods>
-          <include name="InValidCredentialsTest"/>
+          <include name="InValidUserAndPassword"/>
+          <include name="InValidUserAndValidPasswordTest"/>
+          <include name="ValidUserAndInValidPasswordTest"/>
+          <include name="ValidUserAndPassword"/>
         </methods>
       </class> <!-- vm.AppTest -->
     </classes>
