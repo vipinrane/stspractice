@@ -5,6 +5,8 @@ import org.testng.annotations.Test;
 
 public class AppTest {
 
+	
+	//All tests are passed
 	@Test
 	public void ValidUserAndPassword() {
 		App myApp = new App();
